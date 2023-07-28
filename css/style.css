@@ -12,6 +12,7 @@ header{
     padding:10px ;
     gap: 4rem;
     background-color: whitesmoke;
+
 }
 
 
@@ -115,7 +116,7 @@ a{
 
 
 }*/
-.part3{
+#Offer{
     display: flex;
     justify-content: center;
     justify-content: space-between;
@@ -174,14 +175,14 @@ a{
     justify-content: center;
 
 }
-.container {
+#Account {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+#butt{
     text-align: center;
     color: #ff6b6b;
 }

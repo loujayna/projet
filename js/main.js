@@ -1,4 +1,6 @@
-document.getElementById('submitBtn').addEventListener('click', function() {
+document.getElementById('registrationForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Empêche le formulaire de se soumettre automatiquement
+
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
 
